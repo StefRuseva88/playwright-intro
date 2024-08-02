@@ -40,13 +40,10 @@ Checks if the application correctly marks a task as complete when the user click
 Checks if the application correctly filters tasks based on their status.
 
 ### 4. Run Tests
-1. Run all tests with the command:
+Run all tests with the command:
     ```bash
     npm test
     ```
-2. Verify that all tests pass.
-
----
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
