@@ -11,6 +11,7 @@ We are given a simple JS app that lets the user add tasks, mark them as complete
 ### 1. Install Dependencies
 1. Open the To-Do app directory in Visual Studio Code and open a terminal.
 2. Install all dependencies using these commands:
+   
     ```bash
     npm install
     npx playwright install
@@ -19,6 +20,7 @@ We are given a simple JS app that lets the user add tasks, mark them as complete
 ### 2. Start the Server
 1. The command above installs Playwright and http-server.
 2. Start the server with the command:
+   
     ```bash
     npm start
     ```
