@@ -1,6 +1,5 @@
-# Lab: Playwright Introduction
+# Playwright Introduction
 
-Lab problems for the "Front-End Test Automation" module @ SoftUni
 
 ---
 
