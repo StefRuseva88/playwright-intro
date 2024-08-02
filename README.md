@@ -28,72 +28,16 @@ We are given a simple JS app that lets the user add tasks, mark them as complete
 2. Create a file `todo.spec.js` inside the `tests` folder. This file will hold the test code.
 
 #### Test 1: Test If a User Can Add a Task
-- Ensure the application correctly adds a new task when a user types into the task input and clicks the [Add Task] button.
-- The code should look like this:
-
-    ```javascript
-    const { test, expect } = require('@playwright/test');
-
-    test('user can add a task', async ({ page }) => {
-        await page.goto('http://localhost:8000');
-        await page.fill('#new-task', 'Test Task');
-        await page.click('#add-task');
-        const task = await page.textContent('.task');
-        expect(task).toContain('Test Task');
-    });
-    ```
+Ensures that the application correctly adds a new task when a user types into the task input and clicks the [Add Task] button.
 
 #### Test 2: Test If a User Can Delete a Task
-- Check if the application correctly deletes a task when the user clicks the [Delete] button of a task.
-- The code should look like this:
-
-    ```javascript
-    const { test, expect } = require('@playwright/test');
-
-    test('user can delete a task', async ({ page }) => {
-        await page.goto('http://localhost:8000');
-        await page.fill('#new-task', 'Test Task');
-        await page.click('#add-task');
-        await page.click('.task .delete');
-        const task = await page.textContent('.task');
-        expect(task).not.toContain('Test Task');
-    });
-    ```
+Checks if the application correctly deletes a task when the user clicks the [Delete] button of a task.
 
 #### Test 3: Test If a User Can Mark a Task as Complete
-- Check if the application correctly marks a task as complete when the user clicks the checkbox of a task.
-- The code should look like this:
-
-    ```javascript
-    const { test, expect } = require('@playwright/test');
-
-    test('user can mark a task as complete', async ({ page }) => {
-        await page.goto('http://localhost:8000');
-        await page.fill('#new-task', 'Test Task');
-        await page.click('#add-task');
-        await page.click('.task .complete');
-        const completedTask = await page.$('.task.completed');
-        expect(completedTask).not.toBeNull();
-    });
-    ```
+Checks if the application correctly marks a task as complete when the user clicks the checkbox of a task.
 
 #### Test 4: Test If a User Can Filter Tasks
-- Check if the application correctly filters tasks based on their status.
-- The code should look like this:
-
-    ```javascript
-    const { test, expect } = require('@playwright/test');
-
-    test('user can filter tasks', async ({ page }) => {
-        await page.goto('http://localhost:8000');
-        await page.fill('#new-task', 'Test Task');
-        await page.click('#add-task');
-        await page.click('.task .complete');
-        await page.selectOption('#filter', 'completed');
-        const incompleteTask = await page.$('.task:not(.completed)');
-        expect(incompleteTask).toBeNull();
-    });
-    ```
+Checks if the application correctly filters tasks based on their status.
 
 ### 4. Run Tests
 1. Run all tests with the command:
