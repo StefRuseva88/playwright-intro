@@ -1,6 +1,6 @@
 # Playwright Introduction
 
-
+### This is a test project for Front-End Test Automation July 2024 Course @ SoftUni
 ---
 
 ## Overview
