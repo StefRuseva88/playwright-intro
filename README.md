@@ -42,7 +42,7 @@ We are given a simple JS app that lets the user add tasks, mark them as complete
 ### 4. Run Tests
 Run all tests with the command:
 
-    ```bash
+ ```bash
     npm test
     ```
 
