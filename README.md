@@ -44,7 +44,7 @@ Run all tests with the command:
 
  ```bash
     npm test
-    ```
+ ```
 
 ## Contributing
 Contributions are welcome! If you have any improvements or bug fixes, feel free to open a pull request.
