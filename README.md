@@ -4,7 +4,7 @@
 ---
 
 ## Overview
-We are given a simple JS app that lets the user add tasks, mark them as completed, delete them, and filter them according to their status. We will use Playwright to write code to test the UI of this app.
+Testing simple JS app that lets the user add tasks, mark them as completed, delete them, and filter them according to their status. 
 
 ## Steps
 
