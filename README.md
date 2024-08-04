@@ -11,7 +11,7 @@ Testing simple JS app that lets the user add tasks, mark them as completed, dele
 ## Steps
 
 ### 1. Install Dependencies
-1. Open the To-Do app directory in Visual Studio Code and open a terminal.
+1. Open the app directory in Visual Studio Code and open a terminal.
 2. Install all dependencies using these commands:
    
     ```bash
