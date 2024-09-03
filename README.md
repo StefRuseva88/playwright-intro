@@ -1,7 +1,7 @@
 # Playwright Introduction
 
-![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+[![JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Chromium](https://img.shields.io/badge/tested%20on-Chromium-4285F4.svg)](https://www.chromium.org/)
 [![Playwright](https://img.shields.io/badge/tested%20with-Playwright-6E40C9.svg)](https://playwright.dev/)
 
 ### This is a test project for Front-End Test Automation July 2024 Course @ SoftUni
