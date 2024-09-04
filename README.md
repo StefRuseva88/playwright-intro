@@ -7,46 +7,34 @@
 ### This is a test project for Front-End Test Automation July 2024 Course @ SoftUni
 ---
 
-## Overview
-Testing simple JS app that lets the user add tasks, mark them as completed, delete them, and filter them according to their status. 
+## Project Overview
+This project involves testing a basic JavaScript application that allows users to add tasks, mark them as done, delete them, and filter them based on their status.
 
 ## Steps
 
 ### 1. Install Dependencies
-1. Open the app directory in Visual Studio Code and open a terminal.
-2. Install all dependencies using these commands:
+1. Open the application directory using Visual Studio Code and access a terminal.
+2. Install the required dependencies by executing the following commands:
    
     ```bash
     npm install
     npx playwright install
     ```
 
-### 2. Start the Server
-1. The command above installs Playwright and http-server.
-2. Start the server with the command:
+### 2. Launching the Server
+1. The above commands will install Playwright and http-server.
+2. Start the server using the command:
    
     ```bash
     npm start
     ```
 
-### 3. Write Tests
-1. Create a new folder in the project directory and name it `tests`.
-2. Create a file `todo.spec.js` inside the `tests` folder. This file will hold the test code.
-
-#### Test 1: Test If a User Can Add a Task
-- Ensures that the application correctly adds a new task when a user types into the task input and clicks the [Add Task] button.
-
-#### Test 2: Test If a User Can Delete a Task
-- Checks if the application correctly deletes a task when the user clicks the [Delete] button of a task.
-
-#### Test 3: Test If a User Can Mark a Task as Complete
-- Checks if the application correctly marks a task as complete when the user clicks the checkbox of a task.
-
-#### Test 4: Test If a User Can Filter Tasks
-- Checks if the application correctly filters tasks based on their status.
+### 3. Creating Tests
+1. Inside the project directory, create a new folder named tests.
+2. In the tests folder, create a file named `todo.spec.js`. This will contain the test scripts.
 
 ### 4. Run Tests
-Run all tests with the command:
+Run all tests by using the command:
 
  ```bash
     npm test
