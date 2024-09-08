@@ -1,4 +1,4 @@
-# Playwright Introduction
+# Playwright Intro
 
 [![JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Chromium](https://img.shields.io/badge/tested%20on-Chromium-4285F4.svg)](https://www.chromium.org/)
